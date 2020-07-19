@@ -1,0 +1,53 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #wrap {
+            width: 1000px;
+            width: 100%;
+            height: auto;
+        }
+        
+        .screen {
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            background: white;
+            position: relative;
+            overflow: hidden;
+			background-image: url(./bac.jpg);
+			 
+        }
+        
+        .screen span {
+            position: absolute;
+            display: block;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        
+        .foot {
+            width: 1000px;
+            height: 20%;
+            margin: 0 auto;
+            line-height: 100px;
+            text-align: center;
+            background-color:lightsteelblue;
+        }
+        
+        .foot input {
+            font-size: 18px;
+            padding: 0 12px;
+            box-sizing: border-box;
+            width: 400px;
+            height: 40px;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+        
+        .foot button {
+            width: 120px;
+            height: 40px;
+            vertical-align: middle;
+        }
